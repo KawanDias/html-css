@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+/*RESET CSS BÁSICO*/
+*{
+   box-sizing: border-box;
+   }
+
+
+/*HEADER CONFIG*/
+
+header{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    background-image: linear-gradient(to top, rgb(1, 75, 37), rgb(51, 164, 96));
+    font-family: bebasneue;  
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+
+header > h1#principal{
+    letter-spacing: 2px;
+    
+}
+
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*BODY/MAIN CONFIG*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0E8DD;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+p#p01, p#p02, p#p03{
+    text-indent: 30px;
+}
+
+#android, #irinablok, #bugdroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video1{
+    text-align: center;
+    background-color: rgb(1, 114, 1);
+}
+
+main{
+    background-color: white;
+    padding: 10px 10px 50px 5px;
+    margin: 0px 410px 10px 200px;
+    border-radius: 0px 0px;
+    box-shadow: 4px 4px 9px 0px black;
+    text-align: justify;
+    font-size: 20px;
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+article > aside{
+    background-color: rgb(165, 165, 165);
+}
+
+/*LINKS/ÂNCORAS*/
+
+a#link1, a#link2, a#link03, a#link04, a#link05, a#link06, a#link07{
+    color:rgb(0, 110, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a#link1:hover, a#link2:hover, a#link03:hover, a#link04:hover, a#link05:hover, a#link06:hover, a#link07:hover{
+  text-decoration: underline;
+}
+
+/*SECTIONS/ PARÁGRAFOS*/
+
+section#titulo1 > h1{
+    text-align: left;
+    padding-left: 5px;
+    font-family: idroid;
+    color: rgb(0, 110, 0);
+}
+
+section#titulo1 > p, section#titulo2 > p{
+    padding-left: 5px;
+}
+
+section#titulo2 > h1{
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, rgb(171, 218, 171), white);
+    font-family: idroid;
+    color: rgb(0, 110, 0);
+}
+
+ section#titulo3 > h1{
+    text-align: left;
+    padding-left: 5px;
+    font-family: idroid;
+    color: rgb(0, 110, 0);
+    background-image: linear-gradient(to right, rgb(171, 218, 171), white);
+}
+
+/*NAV CONFIG*/
+
+nav{
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;        
+    font-size: 18px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    padding: 4px
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+}
+
+/*FOOTER CONFIG*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
